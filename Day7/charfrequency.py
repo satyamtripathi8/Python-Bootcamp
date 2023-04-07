@@ -1,6 +1,4 @@
 x=input()
-#satyam
-
 str=""
 for i in x:
     cnt=0
