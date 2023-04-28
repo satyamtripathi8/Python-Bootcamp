@@ -12,8 +12,8 @@ x=int(input())
 # Using Recursion
 def check(n):
     if n==1:
-        return True
+        print("True")
     if n==0 or n%2!=0:
-        return False
+        print("False")
     return check(n//2)
 print(check(x))
