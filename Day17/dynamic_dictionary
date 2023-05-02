@@ -10,5 +10,7 @@ for i in d:
     if i==b:
         c=input("Enter new value: ")
         d[b]=c
-print(d)
+        print(d)
+    else:
+        print("Key not found")
     
