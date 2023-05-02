@@ -1,0 +1,14 @@
+d={}
+a=int(input("How many friends you have: "))
+for i in range(a):
+    x=input("Enter Phone Number as key")
+    y=input("Enetr Name as value")
+    d[x]=y
+print(d)
+b=input("Enter key you want to modify: ")
+for i in d:
+    if i==b:
+        c=input("Enter new value: ")
+        d[b]=c
+print(d)
+    
